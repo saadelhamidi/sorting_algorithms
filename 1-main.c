@@ -47,10 +47,10 @@ int main(void)
     list = create_listint(array, n);
     if (!list)
         return (1);
-    printed_list(list);
+    print_list(list);
     printf("\n");
-    insertion_sorting_list(&list);
+    insertion_sort_list(&list);
     printf("\n");
-    printed_list(list);
+    print_list(list);
     return (0);
 }
