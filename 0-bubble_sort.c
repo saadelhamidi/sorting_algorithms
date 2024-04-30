@@ -1,13 +1,13 @@
 #include	"sort.h"
 
 /**
-	*	bubble_sorting	-	sort	array	elements	from	minimum	to maximum	value
+	*	bubble_sort	-	sort	array	elements	from	min	to	max	value
 	*	@array:	array
-	*	using	the	Bubble	sorting	algorithm.
+	*	using	the	Bubble	sort	algorithm.
 	*	@size:	array	size
 	*	Return:	(void)
 	*/
-void	bubble_sorting(int	*array,	size_t	size)
+void	bubble_sort(int	*array,	size_t	size)
 {
 	size_t	i,	index;
 	int	tmp;
@@ -28,7 +28,7 @@ void	bubble_sorting(int	*array,	size_t	size)
 	array[index]	=	array[index	+	1];
 	array[index	+	1]	=	tmp;
 	swapped	=	1;
-	printed_array(array,	size);
+	print_array(array,	size);
 	}
 	}
 
