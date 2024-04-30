@@ -1,10 +1,10 @@
 #include	"sort.h"
 
 /**
-	*	bubble_sort is a sort array elements from minimum to maximum values
+	*	bubble_sort  -  sort array elements from minimum to maximum values
 	*	@array:	array
-	*       using the Bubble sort	algorithm.
-	*	@size:	array	size
+	*       using the Bubble sort algorithm.
+	*	@size:	array size
 	*	Return:	(void)
 	*/
 void	bubble_sort(int	*array,	size_t	size)
