@@ -7,7 +7,7 @@
 	*	@size:	array	size
 	*	Return:	(void)
 	*/
-void	bubble_sorting(int	*array,	size_t	size)
+void	bubble_sort(int	*array,	size_t	size)
 {
 	size_t	i,	index;
 	int	tmp;
