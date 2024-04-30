@@ -27,7 +27,7 @@ void select_sorting(int *array, size_t size);
 
 void quick_sorting(int *array, size_t size);
 void recursive_quick_sorting(int *array, int start, int end, size_t size);
-int lmt_partition(int *array, int start, int end, size_t size);
+int lomuto_partition(int *array, int start, int end, size_t size);
 void perform_swap(int *a, int *b);
 void printed_array_after_swaping(int *array, size_t size);
 
