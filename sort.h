@@ -28,7 +28,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quicksort_recursive(int *array, int start, int end, size_t size);
 int  partition(int *array, int start, int end, size_t size);
-void perform_swaping(int *a, int *b);
+void swap(int *a, int *b);
 void print_array_after_swaping(int *array, size_t size);
 
 void shell_sorting(int *array, size_t size);
