@@ -80,7 +80,7 @@ void	perform_swap(int	*a,	int	*b)
 }
 
 /**
-	*	print_array_after_swap	-	Prints	the	array	after	each	swap.
+	*	swap	-	Prints	the	array	after	each	swap.
 	*	@array:	The	array	to	be	printed.
 	*	@size:	The	size	of	the	array.
 	*/
