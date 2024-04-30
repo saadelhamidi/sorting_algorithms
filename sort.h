@@ -18,20 +18,20 @@ typedef struct listint_s
 } listint_t;
 
 
-void print_array(const int *array, size_t size);
-void print_list(const listint_t *list);
+void printed_array(const int *array, size_t size);
+void printed_list(const listint_t *list);
 
-void bubble_sort(int *array, size_t size);
-void insertion_sort_list(listint_t **list);
-void selection_sort(int *array, size_t size);
+void bubble_sorting(int *array, size_t size);
+void insertion_sorting_list(listint_t **list);
+void selection_sorting(int *array, size_t size);
 
-void quick_sort(int *array, size_t size);
-void recursive_quick_sort(int *array, int start, int end, size_t size);
+void quick_sorting(int *array, size_t size);
+void recursive_quick_sorting(int *array, int start, int end, size_t size);
 int lomuto_partition(int *array, int start, int end, size_t size);
-void perform_swap(int *a, int *b);
-void print_array_after_swap(int *array, size_t size);
+void perform_swaping(int *a, int *b);
+void print_array_after_swaping(int *array, size_t size);
 
-void shell_sort(int *array, size_t size);
-void cocktail_sort_list(listint_t **list);
+void shell_sorting(int *array, size_t size);
+void cocktail_sorting_list(listint_t **list);
 
 #endif
