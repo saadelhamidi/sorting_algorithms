@@ -1,7 +1,7 @@
 #include	"sort.h"
 
 /**
-	*	bubble_sort	-	sort	array	elements	from	min	to	max	value
+	*	bubble_sort	-	sort	array	elements	from	minimum 	to	maximum 	values
 	*	@array:	array
 	*	using	the	Bubble	sort	algorithm.
 	*	@size:	array	size
